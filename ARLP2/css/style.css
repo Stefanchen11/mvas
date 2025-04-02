@@ -1,0 +1,322 @@
+body {
+    font-size: 16px;
+    line-height: 1.42857143;
+    font-family: 'Open Sans',Arial,sans-serif;
+    color: #606060;
+    background: url('../images/background-shadow.png');
+    background-size: cover;
+}
+
+h1 {
+    font-size: 38px;
+    color: #222;
+}
+
+h2 {
+    font-size: 32px;
+    color: #222;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #222;
+}
+
+.clearfi-rem {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.col-01 {
+    color: #255792;
+}
+
+.col-02 {
+    color: #152a03;
+}
+
+.center-all {
+    margin: 0 auto;
+}
+
+
+.mt-0 {
+    margin-top: 0px !important;
+}
+
+.mt-10 {
+    margin-top: 10px !important;
+}
+
+.mt-20 {
+    margin-top: 20px !important;
+}
+
+.mt-25 {
+    margin-top: 25px !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.mt-32 {
+    margin-top: 32px !important;
+}
+
+.mt-40 {
+    margin-top: 40px !important;
+}
+
+.mt-50 {
+    margin-top: 50px !important;
+}
+
+.mt-60 {
+    margin-top: 60px !important;
+}
+
+.mt-70 {
+    margin-top: 70px !important;
+}
+
+
+.clearfix-rem {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.box-container-01 {
+    box-shadow: 0px 1px 2px 2px rgba(36, 33, 33, 0.22);
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(36, 33, 33, 0.22);
+    -moz-box-shadow: 0px 1px 2px 2px rgba(36, 33, 33, 0.22);
+    border: 5px solid rgba(178, 211, 227, 0.1);
+    margin-top: 20px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    background: white;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.box-container {
+    box-shadow: 0px 1px 2px 2px rgba(36, 33, 33, 0.22);
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(36, 33, 33, 0.22);
+    -moz-box-shadow: 0px 1px 2px 2px rgba(36, 33, 33, 0.22);
+    border: 5px solid rgba(178, 211, 227, 0.1);
+    margin-top: 0px;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    background: white;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.first-head {
+       text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 41px;
+    font-weight: bold;
+    color: #131313;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.sp-style {
+    text-shadow: 1px 1px rgba(37, 87, 146, 0.47);
+    font-weight: bold;
+}
+
+.center-all {
+    margin: 0 auto;
+    display: block;
+}
+
+.colord-div {
+    background: rgba(158, 158, 158, 0.28);
+    margin-top: 25px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+    .colord-div h3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 22px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+.small-para {
+    padding-top: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.list-st {
+    padding-left: 0px;
+    list-style: none;
+    font-size: 17px;
+    color: #333;
+    text-shadow: 1px 1px rgba(128, 128, 128, 0.11);
+    line-height: 28px;
+}
+
+
+.form-container {
+    background: rgba(223, 222, 223, 0.42);
+    margin-top: 20px;
+    box-shadow: 0px 1px 2px 2px white;
+    -webkit-box-shadow: 0px 1px 2px 2px white;
+    -moz-box-shadow: 0px 1px 2px 2px white;
+    padding-bottom: 7px;
+}
+
+
+.form-group {
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.form-control {
+    border-radius: 0px !important;
+    height: 47px;
+    font-size: 17px;
+    padding-top: 4px;
+}
+
+.btn-style {
+      background:#5FBD48;
+    background: linear-gradient(to bottom, rgba(95, 189, 72, 0.78) 9%,#36901E 100%,#01B22E 100%,#01B22E 100%,#01B22E 100%,#01B22E 100%);
+    background: -moz-linear-gradient(to bottom, rgba(95, 189, 72, 0.78) 9%,#36901E 100%,#01B22E 100%,#01B22E 100%,#01B22E 100%,#01B22E 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(95, 189, 72, 0.78) 9%,#36901E 100%,#01B22E 100%,#01B22E 100%,#01B22E 100%,#01B22E 100%);
+    font-weight: 500;
+    font-size: 28px;
+    color: white;
+    padding: 18px 70px 18px 70px;
+    display: table;
+    margin: 0 auto 0 auto;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing:0.4px
+  
+}
+
+    .btn-style:hover {
+        background: rgb(42, 141, 46);
+        color: white;
+    }
+    .btn-style:focus {
+        background: rgb(42, 141, 46);
+        color: white;
+    }
+    .btn-style:active {
+        background: rgb(42, 141, 46);
+        color: white;
+    }
+
+
+.testimony-para {
+    font-size: 15px;
+}
+
+.bottom-para {
+    padding-top: 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.copyrights {
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 0px;
+}
+
+
+/********************************************************** Media Queries *********************************************************/
+
+/*@media (min-width:991px) {
+
+    .container-small {
+        width: 900px !important;
+    }
+}*/
+
+
+@media (min-width:768px) {
+    .m65 {
+        margin-top: 65px;
+    }
+
+    .left-30 {
+        padding-left: 30px !important;
+    }
+
+    .rem {
+        margin-left: -50px;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .box-container {
+        margin-top: 40px !important;
+    }
+}
+
+@media (max-width:767px) {
+    .box-container {
+        margin-top: 0px !important;
+        margin-bottom: 60px !important;
+    }
+
+    .first-head {
+        font-size: 23px;
+    }
+
+    .btn-style {
+        font-size: 19px !important;
+    }
+
+    .mob-align-center {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    .list-st {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .team-img {
+        width: 100px;
+    }
+}
+
+
+@media (min-width:1200px) {
+
+    .container-small {
+        width: 840px !important;
+    }
+}
+
+
+p {
+    font-family: cabin;
+    font-size: 18px;
+}
