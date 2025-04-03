@@ -1,0 +1,36 @@
+.container {
+      text-align: center;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      display: block;
+      max-width: 300px;
+      margin: auto;
+    }
+    .timer {
+      color: red;
+      font-weight: bold;
+      font-size: 150%;
+    }
+    p {
+      font-size: 18px;
+      margin: 10px;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    img {
+      max-width: 250px;
+      padding: 8px;
+    }
+    .button {
+      background-color: green;
+      color: white;
+      padding: 18px;
+      border-radius: 10px;
+      max-width: 80%;
+      margin: auto;
+      font-size: 125%;
+    }
+    h1 {
+      margin-bottom: 5px;
+      margin-top: 5%;
+    }
