@@ -1,0 +1,91 @@
+@font-face { 
+	font-family: 'Cabin'; 
+	font-style: normal; 
+	font-weight: 400; 
+	src: local('Cabin'), local('Cabin-Regular'), url(f_llnx1WHhdyLU5TujUuqx9eodviXUF6A8_1585707368_lpf.woff2) format('woff2'); 
+	unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; 
+} 
+@font-face { 
+	font-family: 'Cabin'; 
+	font-style: normal; 
+	font-weight: 400; 
+	src: local('Cabin'), local('Cabin-Regular'), url(f_MZ9vDwrcVrqmD8eqc2pn0JXseDrvHTgn_1585707368_lpf.woff2) format('woff2'); 
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; 
+} 
+@font-face { 
+	font-family: 'Cabin'; 
+	font-style: normal; 
+	font-weight: 400; 
+	src: local('Cabin'), local('Cabin-Regular'), url(f_gSXSBHCfZCQah4t6sihSspBnHZBQjujr_1585707368_lpf.woff2) format('woff2'); 
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215; 
+} 
+@font-face { 
+	font-family: 'Cabin'; 
+	font-style: normal; 
+	font-weight: 600; 
+	src: local('Cabin SemiBold'), local('Cabin-SemiBold'), url(f_Kj4cYENBdQce4QLo7bPnnsacx4gOjgJl_1585707368_lpf.woff2) format('woff2'); 
+	unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; 
+} 
+@font-face { 
+	font-family: 'Cabin'; 
+	font-style: normal; 
+	font-weight: 600; 
+	src: local('Cabin SemiBold'), local('Cabin-SemiBold'), url(f_G6jyUbJjwiCWNEXAmzLr6VQYZi3G1V5q_1585707368_lpf.woff2) format('woff2'); 
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; 
+} 
+@font-face { 
+	font-family: 'Cabin'; 
+	font-style: normal; 
+	font-weight: 600; 
+	src: local('Cabin SemiBold'), local('Cabin-SemiBold'), url(f_c0Ht4KZ97OT5yxqMFUpIKNGroTHHIqjv_1585707368_lpf.woff2) format('woff2'); 
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215; 
+} 
+@font-face { 
+	font-family: 'Cabin'; 
+	font-style: normal; 
+	font-weight: 700; 
+	src: local('Cabin Bold'), local('Cabin-Bold'), url(f_VddS2NfLJopJ3HvgWbePTRz0yF8N5fbd_1585707368_lpf.woff2) format('woff2'); 
+	unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; 
+} 
+@font-face { 
+	font-family: 'Cabin'; 
+	font-style: normal; 
+	font-weight: 700; 
+	src: local('Cabin Bold'), local('Cabin-Bold'), url(f_IwH0CFIxKsaBQXgmYKdtL0dqOucu0V8K_1585707368_lpf.woff2) format('woff2'); 
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; 
+} 
+@font-face { 
+	font-family: 'Cabin'; 
+	font-style: normal; 
+	font-weight: 700; 
+	src: local('Cabin Bold'), local('Cabin-Bold'), url(f_BxnPczJUGPTbbnG33p1jFasH2XBBverQ_1585707368_lpf.woff2) format('woff2'); 
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215; 
+} 
+@font-face { 
+	font-family: 'Lato'; 
+	font-style: normal; 
+	font-weight: 400; 
+	src: local('Lato Regular'), local('Lato-Regular'), url(f_PL8ugshKe3CPBZsuOp5cOzxCs3U6mr5I_1585707368_lpf.woff2) format('woff2'); 
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; 
+} 
+@font-face { 
+	font-family: 'Lato'; 
+	font-style: normal; 
+	font-weight: 400; 
+	src: local('Lato Regular'), local('Lato-Regular'), url(f_JUepvtwQfLXMvviGFuxt06elpI8A0b3r_1585707368_lpf.woff2) format('woff2'); 
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215; 
+} 
+@font-face { 
+	font-family: 'Lato'; 
+	font-style: normal; 
+	font-weight: 700; 
+	src: local('Lato Bold'), local('Lato-Bold'), url(f_SKYxaA6SUTHtOETcc6o86uDTiwuzu4kQ_1585707368_lpf.woff2) format('woff2'); 
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; 
+} 
+@font-face { 
+	font-family: 'Lato'; 
+	font-style: normal; 
+	font-weight: 700; 
+	src: local('Lato Bold'), local('Lato-Bold'), url(f_zwomlxQQIyTNilij7fs1zss3MU2NGk7s_1585707368_lpf.woff2) format('woff2'); 
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215; 
+} 
