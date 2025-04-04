@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Free Gift Available</title>
+
+<link rel='stylesheet' href='/p_v4/css/public.css' type='text/css' media='all' />
+<link rel='stylesheet' href='/p_v4/css/override.css' type='text/css' media='all' />
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<link
+		rel="stylesheet"
+		href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+		integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+		crossorigin="anonymous"
+	/>
+<script type='text/javascript' src='/common/js/jquery.1.11.1.js'></script>
+
+	<style type="text/css">
+		.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+	</style>
+
+</head>
+<body>
+	  <!--build out dynamically with JS ... eventulally -->
+    
+	<script type='text/javascript' src="/p_v4/js/tracker.js"></script>
+  <script type='text/javascript' src="/p_v4/js/validate.js"></script>
+	<script type="text/javascript" src="/p_v4/js/regular.js"></script>
+	<script>initSlide();</script>
+</body>
+</html>

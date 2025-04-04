@@ -1,0 +1,56 @@
+<!-- 
+
+This landing page has been generated using PureLander
+
+########################################
+#######						     #######
+#######    www.purelander.com    #######
+#######						     #######
+########################################
+
+PureLander : The best affordable landing page generator
+
+-->
+<!DOCTYPE html><html><head> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Free Gift Available</title> <link rel='stylesheet' href='css/public.css' type='text/css' media='all' /> <link rel='stylesheet' href='css/override.css' type='text/css' media='all' /></head><body><section class="status-bar text-center"><div id="status-bar-text-p1" class="status-bar-text" style="background: blue;"><h1 class="status-bar__status">Limited time for&nbsp;Special price&nbsp; &nbsp; &nbsp; Status: <strong style="color: #15f615;">Available <strong></strong></strong></h1></div></section><section class="intro text-center"><div id="intro__img" class="intro__img text-center"><img src="img/o6dp8l5nub9gjae3k2qv.png" alt="gc brand" width="1920" height="1080" /></div><div class="intro__text"><h1 id="p-1" class="intro__footer" style="color: #343a40; font-size: 17px; margin-top: 8px;">Which language you wanna learn?<br />Real language lessons Online!</h1></div></section><section id="social-imgs" class="social-imgs"><div class="fb-data clearfix"><div><img src="img/likes-fb.png" /></div><div><img src="img/min-ago.png" /></div></div></section><div class="custom-bar" data-label="" style="--width: 0; background: #0000ffb5;"></div><section class="path-flow"><div class="container form-container d-flex justify-content-center"><div class="col-12 col-md-12"><div id="smarticlepath"><div id="slide1" class="slide"><div class="form-group"><div id="surveyQuestionContainer" class="slide__main slide__main--survey"><h3 class="slide__main--description margin--top">Are you interested in learning a new language?</h3><h3 style="margin-bottom: 5px; font-size: 16px; display:none;" class="slide__main--body"></h3><div id="surveyAnswers" class="survey__answers survey__answers--list"><button type="button" class="btn survey__button survey__button--continue survey__button--inline-style" onclick="answerQuestion()" style="background: blue; border: 4px solid blue!important;">Yes</button> <button type="button" id="submit1" class="btn survey__button survey__button--continue survey__button--inline-style" onclick="answerQuestion()" style="background: blue; border: 4px solid blue!important;">No</button></div></div></div></div><div id="slide2" class="slide"><div class="form-group"><div id="surveyQuestionContainer" class="slide__main slide__main--survey"><h3 class="slide__main--description margin--top">Do you enjoying learning in any place?<br /><br /></h3><div id="surveyAnswers" class="survey__answers survey__answers--list"><a href="https://www.laodengdeal.xyz/click"><button type="button" class="btn survey__button survey__button--continue survey__button--inline-style" onclick="answerQuestion()" style="background: blue; border: 4px solid blue!important;">Yes</button></a> <button type="button" id="submit2" class="btn survey__button survey__button--continue survey__button--inline-style" onclick="answerQuestion()" style="background: blue; border: 4px solid blue!important;">No</button></div></div></div></div><div id="slide6" class="slide text-center"><div><h1 style="color: #343a40;"><strong>Checking Eligibility...</strong></h1></div><img src="img/loader.gif" style="max-width: 150px; margin-top: 20px;" /></div></div></div></div></section><script type="text/javascript" src="js/jquery.1.11.1.js"></script><script type="text/javascript"> 
+let formSlide = document.querySelectorAll('.slide');
+let current = 0;
+function initSlide() {
+reset();
+formSlide[current].style.display = 'block';
+}
+function reset() {
+for (let i = 0; i < formSlide.length; i++) {
+formSlide[i].style.display = 'none';
+}
+}
+function nextSlide() {
+reset();
+formSlide[current + 1].style.display = 'block';
+current++; 
+}
+/*progress bar*/
+const progress = document.querySelector('.custom-bar');
+const computedStyle = getComputedStyle(progress);
+let width = parseFloat(computedStyle.getPropertyValue('--width')) || 0;
+progress.style.setProperty('--width', width);
+function incrementProgress() {
+let increment = 100/formSlide.length
+width += increment;
+progress.style.setProperty('--width', width);
+}
+function answerQuestion(slideType, resubmit=0) {
+switch (slideType) {
+case 'fbs':
+nextSlide();
+incrementProgress();
+setTimeout(() => {
+window.location.href = "https://google.com"; 
+}, 3000); //3 sec
+break;
+default:
+nextSlide();
+incrementProgress();
+}
+}
+</script><script> initSlide();
+</script></body></html>

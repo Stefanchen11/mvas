@@ -1,0 +1,310 @@
+/*  RESET */
+html { -webkit-box-sizing: border-box; box-sizing: border-box; -moz-box-sizing: border-box; height: 100%; }
+*, *:before, *:after { -webkit-box-sizing: inherit; box-sizing: inherit; -moz-box-sizing: inherit; }
+* { max-height: 1000000px; outline: none;}
+h1,h2,h3,h4,h5,h6,p{font-size:inherit;font-weight: 400;margin: 0;}
+button{cursor: pointer;}
+img{vertical-align: top; max-width: 100%; height: auto; border-style: none;}
+a {display: inline-block; text-decoration: none; outline: none; color: inherit;}
+/* Reset end */
+
+/* FONTS */
+@font-face {
+    font-family: 'Philosopher-Bold';
+    src:url('Philosopher-Bold.woff') format('woff'),
+        url('Philosopher-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Philosopher-Regular';
+    src:url('Philosopher-Regular.woff') format('woff'),
+        url('Philosopher-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* FONTS END */
+body {
+  -ms-text-size-adjust: none;
+	-moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  color: #222222;
+  font-family: 'Philosopher-Regular';
+  font-weight: 400;
+  background: #fff;
+  min-width: 320px;
+  overflow-x: hidden;
+  height: 100%;
+  direction: ltr;
+}
+
+/* **** START **** */
+.page{
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  background-image: url(body-bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper{
+    margin: auto;
+    display: table-row;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pretitle {
+  color: #666;
+  text-align: center;
+}
+.logo {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 35px;
+  margin-bottom: 8vh;
+  max-width:300px;
+}
+.window {
+  max-width: 505px;
+  margin: auto;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px 0px #b1b1b1;
+  padding: 10px 20px;
+}
+.title {
+  font-size: 28px;
+  font-family: 'Philosopher-Bold';
+  margin: 30px 0;
+}
+.subtitle {
+  font-size: 18px;
+  text-align: justify;
+  text-align-last: center;
+  text-align: center;
+  line-height: 1.2;
+}
+/* btn start */
+.btn-wrap {
+  display: block;
+  text-align: center;
+  margin: 35px auto 10px;
+}
+.btn {
+  background: #222;
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 5px;
+  
+  width: 95%;
+  max-width: 335px;
+
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+
+  color: #d2fffe;
+  font-family: 'Philosopher-Bold';
+  font-size: 30px;
+  /* font-size: 4vh; */
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+ 
+  border: 0;
+}
+/* btn end */
+
+
+/* FOOTER */
+.footer {
+  width: 100%; 
+  margin-top: -25px;
+}
+.footer__text {
+  font-size: 11px;
+  padding: 0 10px;
+  line-height: 1;
+  text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  text-align: center;
+
+  color: #c6c6c6;
+}
+ .footer__text a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  color: #c6c6c6;
+  padding-bottom: 5px;
+}
+.btn-container {
+    margin: 10px auto;
+    max-width: 1140px;
+    width: 70%;
+    min-width: 290px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-bottom {
+    color: #fff!important;
+    font-family: Arial;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 15px!important;
+    width: -webkit-fill-available;
+    margin: 0 5px;
+		background-color: rgba(167, 167, 167, 0.459);
+    line-height: 1;
+    width: 30%;
+}
+/* FOOTER END*/
+
+/* MEDIA */
+@media (orientation: landscape) and (max-width:920px) and (max-height:450px) {
+  .logo {
+    margin-top: 5px;
+    /* margin-top: 3vh; */
+    width: 13%;
+    height: auto;
+    max-width: 164px;
+
+    height: 13vh;
+    width: auto;
+    margin-top: 2vh;
+    margin-bottom: 15px;
+  }
+  .wrapper {
+    display: block;
+  }
+  .window {
+    margin-top: 2vh;
+    padding: 2vh 6vh;
+  }
+  .title {
+    font-size: 24px;
+    font-size: 7vh;
+    margin: 20px 0;
+    margin: 4vh 0;
+  }
+  .subtitle {
+    font-size: 14.2px;
+    font-size: 4.33vh;
+  }
+  .btn-wrap {
+     margin: 20px 0px 5px;
+     margin: 5vh 0 2vh;
+  }
+  .btn {
+    font-size: 23px;
+    font-size: 5vh;
+  }
+}
+/*Samsung A51 - Chrome - album*/
+@media screen and (max-width: 839px)and (max-height:335px) {
+  .window {
+      margin-top: 5px;
+      padding: 5px;
+  }
+  .title {
+      font-size: 22px;
+      margin: 5px 0;
+  }
+}
+/*Samsung A51 - Opera - album*/
+@media screen and (max-width: 829px)and (max-height:285px) {
+ .logo {
+    margin-bottom: 5px;
+ }
+ .btn {
+  padding: 8px 5px;
+ }
+}
+/*Redmi 9 - Chrome - album*/
+@media screen and (max-width: 777px)and (max-height:311px) {
+ .logo {
+    margin-bottom: 5px;
+ }
+}
+/*iPhone SE, 5S - Safary - album*/
+@media screen and (max-width: 569px)and (max-height:321px) {
+  .logo {
+    margin-bottom: 5px;
+  }
+  .title {
+      font-size: 19px;
+      margin: 5px 0;
+  }
+  .subtitle {
+      font-size: 13px;
+  }
+  .btn-wrap {
+      margin: 5px 0 2vh;
+  }
+  .btn {
+    padding: 10px 5px;
+  }
+  .btn-wrap + p {
+    font-size: 12px;
+  }  
+}
+
+@media (orientation: portrait) and (max-width:450px) {
+  .page {
+    background-image: url(body-bg-mob.jpg);
+  }
+  .logo {
+    margin-top: 15px;
+    width: 34%;
+    max-width: 164px;
+  }
+  .window {
+    width: calc(100% - 25px);
+    transform: translateY(-30px);
+  }
+  .title {
+    font-size: 5.6vw;
+    margin: 5vh 0;
+  }
+  .subtitle {
+    font-size: 4.2vw;
+  }
+  .btn-wrap {
+    margin: 6vh 0;
+  }
+  .btn {
+    font-size: 6.2vw;
+  }
+  .btn-bottom {
+    font-size: 13px!important;
+    margin: 0 5px;
+    width: -webkit-fill-available;
+  }
+  .btn-container {
+      width: 100%;
+  }
+}
+
+
+.title{
+  color:#18b53f;
+}
+
